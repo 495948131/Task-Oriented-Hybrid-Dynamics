@@ -4,15 +4,10 @@ import torch.nn.functional as F
 from torch.autograd import Variable 
 import numpy as np
 import math
-# from d2l import torch as d2l
-from sklearn.decomposition import PCA
-from sklearn.cross_decomposition import PLSRegression
 import sys
-from typing import Iterable, Tuple, List, Union
+
 
 sys.path.append(r'D://projectcode//python//rkn_share-master//util')
-
-from ConfigDict import ConfigDict
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
@@ -265,3 +260,4 @@ class ContactComp_Implicated(nn.Module):
         out1 = momentum_power1+torch.mul(momentum_power1,momentum_power)#+torch.mul(momentum_power1,momentum_power)#+momentum_power##torch.mul(momentum_power1,momentum_power)+
 
         return out1,spatial_scores1,temporal_scores2,momentum_power1,momentum_power1#torch.cat((v[:,-1,:]), dim=1) 
+
