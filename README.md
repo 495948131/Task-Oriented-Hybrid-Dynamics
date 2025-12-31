@@ -3,14 +3,23 @@
 This repository stores the code and datasets for the **task-oriented hybrid dynamics modeling framework**, which is used in research on contact force estimation for manipulators via intrinsic sensors.
 
 
+## Requirments
+pandas-2.2.1
+matplotlib-3.8.1
+numpy-1.26.1
+torch-2.2.2
+d2l-0.15.0
+tensorboardX-2.6.4
+scipy-1.11.3
+
 ## Repository Content Overview
 | File/Directory               | Description                                                                 |
 |------------------------------|-----------------------------------------------------------------------------|
-| `LSTM.py`                    | Model definition file: Implements the LSTM network architecture for contact force estimation |
-| `compensateNN.ipynb`         | Main test file: Complete workflow for loading datasets, calling the model, and executing contact force estimation |
-| `YangbenCeshiji38(2600).csv` | Contactless Dataset 1: Contains 2600 training samples and 200 test samples |
-| `YangbenCeshiji41(2600).csv` | Contactless Dataset 2: Contains 2600 training samples and 200 test samples |
-| `YangbenCeshiji42(2600).csv` | Contact Dataset 1: Contains 2600 training samples and 200 test samples     |
+| `model\TaskOrientedHybridDynamics.py`                    | Model definition file: Implements the LSTM network architecture for contact force estimation |
+| `main.ipynb`         | Main test file: Complete workflow for loading datasets, calling the model, and executing contact force estimation |
+| `ContactlessDataset1.csv` | Contactless Dataset 1: Contains 2600 training samples and 200 test samples |
+| `ContactlessDataset2.csv` | Contactless Dataset 2: Contains 2600 training samples and 200 test samples |
+| `ContactDataset1.csv` | Contact Dataset 1: Contains 2600 training samples and 200 test samples     |
 
 
 ## Quick Start
