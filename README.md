@@ -5,6 +5,7 @@ This repository stores the code and datasets for the **task-oriented hybrid dyna
 ![图片描述文本 (Alt Text)](NNStructure.jpg)
 
 ## Requirments
+python-3.10.4<br>
 pandas-2.2.1<br>
 matplotlib-3.8.1<br>
 numpy-1.26.1<br>
@@ -27,3 +28,7 @@ scipy-1.11.3
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/whHuang94/Task-Oriented-Hybrid-Dynamics.git
+2. Run Code
+   ```bash
+   python main.ipynb
+
