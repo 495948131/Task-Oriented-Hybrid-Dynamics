@@ -26,4 +26,4 @@ scipy-1.11.3
 ## Quick Start
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/495948131/Task-Oriented-Hybrid-Dynamics.git
+   git clone https://github.com/whHuang94/Task-Oriented-Hybrid-Dynamics.git
